@@ -10,7 +10,7 @@ stages:
 
 hls-tools:
   stage: hls-tools
-  before_script:
+  script:
     - echo "Source HLS tools for the project."
     - pwd, ls -la;
     - source $VIVADO_PATH_SH
