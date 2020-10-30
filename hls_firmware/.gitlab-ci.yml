@@ -6,6 +6,8 @@ stages:
   - hls-tools
   - hls-build
 
+image: alpine
+
 hls-tools:
   stage: hls-tools
   script:
