@@ -2,6 +2,8 @@ variables:
   GIT_SUBMODULE_STRATEGY: recursive
   VIVADO_PATH_SH: '/home/mghorbani/Xilinx/Vivado/2020.1/settings64.sh'
 
+image: alpine
+
 stages:
   - hls-tools
   - hls-build
