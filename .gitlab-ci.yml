@@ -1,6 +1,6 @@
 variables:
   GIT_SUBMODULE_STRATEGY: recursive
-  VIVADO_PATH_SH: "$CI_PROJECT_DIR/../../../Xilinx/Vivado/2020.1/settings64.sh"
+  VIVADO_PATH_SH: "../../../Xilinx/Vivado/2020.1/settings64.sh"
 
 image: alpine
 
