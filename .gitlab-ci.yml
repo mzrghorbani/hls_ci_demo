@@ -1,0 +1,21 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+  VIVADO_PATH_SH: '/home/mghorbani/Xilinx/Vivado/2020.1/settings64.sh'
+
+stages:
+  - hls-tools
+  - hls-build
+
+hls-tools:
+  stage: hls-tools
+  script:
+    - echo "Source HLS tools for the project."
+    - source $VIVADO_PATH_SH
+
+hls-build:
+  stage: hls-build
+  script:
+    - echo "Build HLS algorithm in the project."
+    - cd Project
+    - pwd, ls -la;
+    - vivado_hls -f hls_script.tcl

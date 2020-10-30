@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Oct 30 01:49:15 2020
+# Process ID: 7162
+# Current directory: /home/mghorbani/workspace/git/hls_ci_demo/hls_firmware/Project/hls_ci_demo/solution1/sim/vhdl
+# Command line: wbtcv -mode batch -source /home/mghorbani/workspace/git/hls_ci_demo/hls_firmware/Project/hls_ci_demo/solution1/sim/vhdl/xsim.dir/Sort_top/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/mghorbani/workspace/git/hls_ci_demo/hls_firmware/Project/hls_ci_demo/solution1/sim/vhdl/webtalk.log
+# Journal file: /home/mghorbani/workspace/git/hls_ci_demo/hls_firmware/Project/hls_ci_demo/solution1/sim/vhdl/webtalk.jou
+#-----------------------------------------------------------
+source /home/mghorbani/workspace/git/hls_ci_demo/hls_firmware/Project/hls_ci_demo/solution1/sim/vhdl/xsim.dir/Sort_top/webtalk/xsim_webtalk.tcl -notrace

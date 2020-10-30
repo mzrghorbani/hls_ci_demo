@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/mghorbani/workspace/git/hls_ci_demo/hls_firmware/Project/hls_ci_demo/solution1/./sim/autowrap/testbench/sort_top.cc_pre.cc.tb.cc

@@ -1,0 +1,5 @@
+# files
+*.log
+
+# folders
+Project/hls_ci_demo
