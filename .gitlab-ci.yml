@@ -12,7 +12,7 @@ hls-tools:
   stage: hls-tools
   script:
     - echo "Source HLS tools for the project."
-    - ls pwd/hls_firmware
+    - echo "$CI_PROJECT_DIR/hls_firmware"
     - source $VIVADO_PATH_SH
 
 hls-build:
