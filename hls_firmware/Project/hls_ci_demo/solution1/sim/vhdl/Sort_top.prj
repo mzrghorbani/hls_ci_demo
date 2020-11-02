@@ -1,7 +1,0 @@
-vhdl xil_defaultlib "AESL_sim_pkg.vhd"
-sv work "glbl.v"
-vhdl xil_defaultlib "Sort_top.autotb.vhd"
-vhdl xil_defaultlib "Sort_top.vhd"
-vhdl xil_defaultlib "Sort_top_mux_83_3bkb.vhd"
-vhdl xil_defaultlib "Sort_top_mux_53_3cud.vhd"
-
