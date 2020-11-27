@@ -19,7 +19,7 @@ add_files -tb $workspace/hls_firmware/TestBench/result.golden.dat
 add_files -tb $workspace/hls_firmware/TestBench/sort_test.cc -cflags "$CFLAGS"
 open_solution "solution1"
 set_part {xcvu9p-fsgd2104-2L-e}
-create_clock -period 2.78 -name default
+create_clock -period 10 -name default
 config_sdx -optimization_level none -target none
 config_export -vivado_optimization_level 2
 source "$workspace/hls_firmware/Project/hls_directives.tcl"
