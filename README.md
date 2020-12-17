@@ -7,6 +7,7 @@ The directories are intentionally structured to test HLS build in GitLab CI/CD.
 prerequisits:
 
 	- Vivado HLS tools
+	- Specify Vivado environment variables
 
 To play with the project, use the commands below:
 
